@@ -1,35 +1,116 @@
-# ⭐ JavaScript: Desafio Classificador de nível de Herói
+# Hero Level Classifier
 
-**O Que foi utilizado**
+A JavaScript challenge that classifies a hero's rank based on their experience points (XP).
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+The project demonstrates the use of variables, comparison operators, and conditional statements to determine a hero's level according to predefined experience ranges.
 
-## 🎯 Objetivo
+---
 
-Criar uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilizar uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+## Overview
 
-- Se XP for menor do que 1.000 = Ferro
-- Se XP for entre 1.001 e 2.000 = Bronze
-- Se XP for entre 2.001 e 5.000 = Prata
-- Se XP for entre 5.001 e 7.000 = Ouro
-- Se XP for entre 7.001 e 8.000 = Platina
-- Se XP for entre 8.001 e 9.000 = Ascendente
-- Se XP for entre 9.001 e 10.000= Imortal
-- Se XP for maior ou igual a 10.001 = Radiante
+This application receives a hero's experience points (XP) and determines their corresponding rank.
 
-## 📤 Saída
+The result is displayed in the console using a formatted message containing the hero's name and level.
 
-Ao final deve-se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
+The project was developed as a practical exercise to reinforce fundamental programming concepts and logical thinking.
 
-## Linguagem Utilizada:
+---
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## Technologies Used
 
-## Ferramentas Utilizadas:
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-E44C30?style=for-the-badge&logo=github&logoColor=white)
-![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+* JavaScript (ES6)
+
+---
+
+## Features
+
+* Hero rank classification based on XP
+* Conditional logic using `if`, `else if`, and `else`
+* Variable declaration and assignment
+* Console output generation
+* Input validation for invalid experience values
+
+---
+
+## Ranking System
+
+| XP Range       | Rank      |
+| -------------- | --------- |
+| 0 - 1,000      | Iron      |
+| 1,001 - 2,000  | Bronze    |
+| 2,001 - 5,000  | Silver    |
+| 5,001 - 7,000  | Gold      |
+| 7,001 - 8,000  | Platinum  |
+| 8,001 - 9,000  | Ascendant |
+| 9,001 - 10,000 | Immortal  |
+| 10,001+        | Radiant   |
+
+---
+
+## Example Output
+
+```text id="wr7mx4"
+The hero named Rogerio Ceni is at the Radiant level.
+```
+
+---
+
+## Project Structure
+
+```text id="c9jvrs"
+.
+├── index.js
+└── README.md
+```
+
+---
+
+## Learning Objectives
+
+This project was developed to practice:
+
+* Variables
+* Operators
+* Conditional statements
+* Logical decision making
+* Console applications
+* Basic JavaScript syntax
+
+---
+
+## How to Run
+
+Make sure Node.js is installed.
+
+Run the application with:
+
+```bash id="h2w1ly"
+node index.js
+```
+
+The result will be displayed in the terminal.
+
+---
+
+## Future Improvements
+
+* User input through terminal prompts
+* Functions for rank calculation
+* Object-oriented implementation
+* Web interface version
+* Automated unit tests
+* Dynamic hero creation
+
+---
+
+## Author
+
+Rodrigo Fontes
+
+Software Developer | Digital Marketing Specialist
+
+---
+
+## License
+
+This project was developed for educational purposes.
